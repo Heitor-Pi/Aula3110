@@ -15,3 +15,5 @@ const title2 = document.getElementById("title2")
 
 title2.innerText = "Medina"
 title2.style.color = "green"
+title2.style.font = "90px"
+title2.style.backgroundColor = "aqua"
