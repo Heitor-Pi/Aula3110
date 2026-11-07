@@ -23,9 +23,18 @@
 // body.style.font = "120px"
 // body.style.backgroundColor = "red"
 
-const paragrafo = document.getElementById("paragrafo")
-const btn =document.getElementById("btn")
+// const paragrafo = document.getElementById("paragrafo")
+// const btn =document.getElementById("btn")
 
-btn.addEventListener("click", function() {
-    paragrafo.innerText = "Deu bom!"
+// btn.addEventListener("click", function() {
+//     paragrafo.innerText = "Deu bom!"
+//     paragrafo.style.color = "blue"
+// })
+
+const paragrafo = document.getElementById("paragrafo")
+const btn = document.getElementById("btn")
+
+btn.addEventListener("click", function (){
+    paragrafo.innerText = "Texto alterado com sucesso!"
+    paragrafo.style.color = "yellow"
 })
