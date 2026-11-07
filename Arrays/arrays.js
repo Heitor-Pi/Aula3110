@@ -20,7 +20,7 @@
 
 let nome = ["Matheus", "Ana", "Igor", "João", "Marcos"]
 
-nomes.forEach((elemento) => {
+nome.forEach((elemento) => {
     console.log(`Bom dia ${elemento}`);
     
 });
