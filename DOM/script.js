@@ -11,3 +11,7 @@
 const title = document.getElementById("title")
 
 title.innerText = "Troquei"
+const title2 = document.getElementById("title2")
+
+title2.innerText = "Medina"
+title2.style.color = "green"
