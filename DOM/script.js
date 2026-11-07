@@ -17,3 +17,8 @@ title2.innerText = "Medina"
 title2.style.color = "green"
 title2.style.font = "90px"
 title2.style.backgroundColor = "aqua"
+
+const body = document.getElementById("body")
+body.style.fontFamily = "Arial"
+body.style.font = "120px"
+body.style.backgroundColor = "red"
