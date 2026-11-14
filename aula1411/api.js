@@ -8,4 +8,5 @@ fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => res.json())
     .then((data) => {
         console.log(data);
+        nome.innerText = data[6].name;
 })
