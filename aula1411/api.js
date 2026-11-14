@@ -11,4 +11,5 @@ fetch("https://jsonplaceholder.typicode.com/users")
         nome.innerText = data[6].name;
         email.innerText = data[6].email;
         telefone.innerText = data[6].phone;
+        website.innerText = data[6].website;
 })
