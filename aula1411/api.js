@@ -36,5 +36,6 @@ fetch("https://rickandmortyapi.com/api/character/")
     .then((data) => {
         console.log(data.results);
         data.results.forEach(character => {
+            const card = document.createElement("div")
         });
     })
