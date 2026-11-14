@@ -4,6 +4,8 @@
 // const website = document.getElementById("website");
 // const company_name = document.getElementById("company_name");
 
+const container = document.getElementById("container")
+
 fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => res.json())
     .then((data) => {
