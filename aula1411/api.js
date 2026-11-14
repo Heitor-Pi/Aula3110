@@ -40,6 +40,8 @@ fetch("https://rickandmortyapi.com/api/character/")
             card.className = "box"
             card.innerHTML = `
                 <img src="${character.image}"/>
+                <p>Nome: ${character.name}</p>
+                
             `
         });
     })
