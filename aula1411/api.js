@@ -17,6 +17,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
                 <p>Email: ${user.email}</p>
                 <p>Telefone: ${user.phone}</p>
                 <p>Website: ${user.website}</p>
+                <p>Company name: ${user.company.name}</p>
             `
             container.appendChild(card)
             
