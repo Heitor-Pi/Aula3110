@@ -15,6 +15,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
             card.innerHTML = `
                 <p>Nome: ${user.name}</p>
             `
+            container.appendChild(card)
             
         });
         // console.log(data);
