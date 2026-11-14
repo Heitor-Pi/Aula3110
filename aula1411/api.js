@@ -11,6 +11,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
     .then((data) => {
         data.forEach(user => {
             const card =document.createElement("div");
+            card.className = "box"
             
         });
         // console.log(data);
