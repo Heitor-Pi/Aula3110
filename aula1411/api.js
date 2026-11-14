@@ -9,6 +9,9 @@ const container = document.getElementById("container")
 fetch("https://jsonplaceholder.typicode.com/users")
     .then((res) => res.json())
     .then((data) => {
+        data.forEach(user => {
+            
+        });
         // console.log(data);
         // nome.innerText = data[6].name;
         // email.innerText = data[6].email;
