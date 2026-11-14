@@ -29,3 +29,4 @@
 // website.innerText = data[6].website;
 // company_name.innerText = data[6].company.name;
 // })
+const container = document.getElementById("container")
