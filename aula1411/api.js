@@ -38,5 +38,8 @@ fetch("https://rickandmortyapi.com/api/character/")
         data.results.forEach(character => {
             const card = document.createElement("div")
             card.className = "box"
+            card.innerHTML = `
+                <img src="${character.image}"/>
+            `
         });
     })
