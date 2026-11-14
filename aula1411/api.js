@@ -37,5 +37,6 @@ fetch("https://rickandmortyapi.com/api/character/")
         console.log(data.results);
         data.results.forEach(character => {
             const card = document.createElement("div")
+            card.className = "box"
         });
     })
