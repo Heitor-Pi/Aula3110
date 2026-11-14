@@ -43,5 +43,6 @@ fetch("https://rickandmortyapi.com/api/character/")
                 <p>Nome: ${character.name}</p>
                 
             `
+            container.appendChild(card)
         });
     })
