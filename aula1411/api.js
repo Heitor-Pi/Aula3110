@@ -30,3 +30,8 @@
 // company_name.innerText = data[6].company.name;
 // })
 const container = document.getElementById("container")
+
+fetch("https://rickandmortyapi.com/api/character/")
+    .then((res) => res.json())
+    .then((data) => {
+    })
