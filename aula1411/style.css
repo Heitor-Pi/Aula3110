@@ -3,3 +3,7 @@
     grid-template-columns: repeat(4, max-content);
     gap: 20px;
 }
+
+.box {
+    background-color: lightblue;
+}
